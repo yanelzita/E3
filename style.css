@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: aqua;}
+
+.padre {
+display: flex;
+
+margin: 20px;
+padding: 20px;
+}
+
+
+
+.img{background-color: yellow;
+  height: 200px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+
+.eslogan{background-color: rgb(75, 213, 98);
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: aliceblue;
+display: flex;
+justify-content:center;
+align-items: center;
+width: 900px;
+height: 200px;
+padding: 30px;
+border-radius: 20px;
+
+
+}
+
+
+
+.parrafo{ background-color: rgb(39, 137, 140);
+font-family: cursive;
+font-size:medium;
+text-transform: uppercase;
+color: white;
+width: 900px;
+height: 200px;
+margin-top: 10px;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+
+}
+
+.boton{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.donar{background-color: rgb(20, 245, 24);
+margin: 10px;
+padding: auto;
+border-radius: 10px;
+height: 50px;
+width: 200px;
+}
+.conocer{background-color : rgb(20, 245, 24);
+margin: 10px;
+padding: auto;
+border-radius: 10px;
+height: 50px;
+width: 200px;
+
+}
+
+section{
+  background-color: coral;
+  margin-top: 40px;
+  padding: 80px;
+  border-radius: 20px;
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  word-spacing: 10px;
+  font-size: xx-large;
+  align-items: center;
+  color: white;
+  
+}
